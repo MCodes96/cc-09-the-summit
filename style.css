@@ -1,0 +1,62 @@
+a {
+  color: darkblue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  background-image: linear-gradient(lightblue, darkblue);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 5px black;
+  text-shadow: 1px 1px 4px black;
+  transition: 0.15s;
+  border: 1px solid midnightblue;
+}
+
+.btn:hover {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: 0.15s;
+}
+
+.btn:active {
+  transition: 0.15s;
+  padding: 14px;
+  box-shadow: 0px 0px;
+  font-size: 15px;
+}
+
+.activity {
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px black;
+  text-shadow: 1px 1px 4px black;
+  transition: 0.15s;
+  border: 1px solid midnightblue;
+}
+
+.activity:hover {
+  background-color: #2199ff;
+  transition: 0.15s;
+  font-size: 35px;
+}
+
+.activity:active {
+  transition: 0.15s;
+  box-shadow: 0px 0px;
+  font-size: 30px;
+}
